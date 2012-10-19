@@ -10,5 +10,6 @@
             "name": "Darrell Hamilton",
             "email": "darrellh@4over.com"
         }
-    ]
+    ],
+    "target-dir": "Zeroem/JsonSchemaValidatorBundle"
 }
