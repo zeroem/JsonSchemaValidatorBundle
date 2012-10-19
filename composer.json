@@ -1,0 +1,14 @@
+{
+    "name": "zeroem/json-schema-validator-bundle",
+    "description": "Json Schema Validation tools for Symfony",
+    "require": {
+        "justinrainbow/json-schema": "1.2.1"
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Darrell Hamilton",
+            "email": "darrellh@4over.com"
+        }
+    ]
+}
