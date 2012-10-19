@@ -2,7 +2,8 @@
     "name": "zeroem/json-schema-validator-bundle",
     "description": "Json Schema Validation tools for Symfony",
     "require": {
-        "justinrainbow/json-schema": "1.2.1"
+        "justinrainbow/json-schema": "1.2.1",
+        "symfony/console": "2.1.x-dev"
     },
     "minimum-stability": "dev",
     "authors": [

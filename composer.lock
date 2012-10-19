@@ -1,5 +1,5 @@
 {
-    "hash": "ce01e3ce6d8cf1e8c7e45f84f711cbff",
+    "hash": "f6df9a2266097a7e7919eef5845cc323",
     "packages": [
         {
             "name": "justinrainbow/json-schema",
@@ -55,6 +55,53 @@
                 "json",
                 "schema"
             ]
+        },
+        {
+            "name": "symfony/console",
+            "version": "2.1.x-dev",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console",
+                "reference": "7daac278f160073afccfcbf928ddb39282a8539d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/symfony/Console/zipball/7daac278f160073afccfcbf928ddb39282a8539d",
+                "reference": "7daac278f160073afccfcbf928ddb39282a8539d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "time": "1350313602",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.1-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com"
         }
     ],
     "packages-dev": null,
@@ -62,7 +109,7 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ]
+    "stability-flags": {
+        "symfony/console": 20
+    }
 }
