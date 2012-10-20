@@ -27,8 +27,10 @@ class ValidationCommand extends ContainerAwareCommand
     protected function execute(InputInterface $input, OutputInterface $output) {
         $validator = new Validator;
 
-        $schema = json_decode(file_get_contents($input->getArgument('schema')));
-        $json = json_decode(file_get_contents($input->getArgument('json')));
+        $json = $this->getContainer()->get('json');
+
+        $schema = $json->decode(file_get_contents($input->getArgument('schema')));
+        $json = $json->decode(file_get_contents($input->getArgument('json')));
 
         $validator->check($json, $schema);
 

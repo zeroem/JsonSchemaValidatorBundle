@@ -3,7 +3,8 @@
     "description": "Json Schema Validation tools for Symfony",
     "require": {
         "justinrainbow/json-schema": "1.2.1",
-        "symfony/console": "2.1.x-dev"
+        "symfony/console": "2.1.x-dev",
+        "zeroem/json-bundle": "0.1.0"
     },
     "minimum-stability": "dev",
     "authors": [
